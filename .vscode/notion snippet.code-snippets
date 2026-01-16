@@ -1,0 +1,80 @@
+{
+	// Place your notion-clone workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	
+  "JSDoc Function": {
+    "prefix": "jsfunc",
+    "body": [
+      "/**",
+      " * ${1:Brief description.}",
+      " *",
+      " * @param ${2:param} - ${3:description}",
+      " * @returns ${4:description}",
+      " */"
+    ],
+    "description": "JSDoc for functions"
+  },
+
+  "JSDoc React Component": {
+    "prefix": "jscomp",
+    "body": [
+      "/**",
+      " * ${1:Component description.}",
+      " */"
+    ],
+    "description": "JSDoc for React components"
+  },
+
+  "JSDoc Interface": {
+    "prefix": "jsiface",
+    "body": [
+      "/**",
+      " * ${1:Description of the interface.}",
+      " */"
+    ],
+    "description": "JSDoc for interfaces"
+  },
+
+  "JSDoc Param": {
+    "prefix": "jsparam",
+    "body": [
+      "/** @param ${1:name} - ${2:description} */"
+    ],
+    "description": "JSDoc param"
+  },
+
+  "JSDoc Deprecated": {
+    "prefix": "jsdeprecated",
+    "body": [
+      "/**",
+      " * @deprecated ${1:Reason and alternative}",
+      " */"
+    ],
+    "description": "JSDoc deprecated tag"
+  },
+
+  "JSDoc Internal": {
+    "prefix": "jsinternal",
+    "body": [
+      "/**",
+      " * @internal",
+      " */"
+    ],
+    "description": "JSDoc internal tag"
+  }
+}
+

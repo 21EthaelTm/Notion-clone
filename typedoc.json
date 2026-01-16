@@ -1,0 +1,13 @@
+{
+  "entryPoints": ["app", "lib", "components"],
+  "entryPointStrategy": "expand",
+  "out": "docs",
+  "exclude": [
+    "**/page.tsx",
+    "**/layout.tsx",
+    "**/loading.tsx",
+    "**/error.tsx",
+    "**/not-found.tsx",
+    "**/route.ts"
+  ]
+}
